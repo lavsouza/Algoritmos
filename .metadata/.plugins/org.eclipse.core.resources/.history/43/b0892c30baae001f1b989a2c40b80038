@@ -1,0 +1,7 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Primeira aplicação C+aa+" << endl;
+    return 0;
+}

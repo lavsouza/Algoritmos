@@ -1,0 +1,56 @@
+#include <iostream>
+using namespace std;
+
+class Veiculo {
+	private:
+		string nome;
+		int num_rodas;
+
+	public:
+		//Construtor
+		Veiculo(const char * param) {
+			this->nome = string(param);
+			cout << "Veículo: " << nome << " Construido" << endl;
+		}
+
+		//Destrutor
+		~Veiculo(){
+			cout << "Veículo: " << nome << " Destruido" << endl;
+		}
+
+		//Metodos
+		void setNumRodas();
+
+		int getNumRodas(int rodas);
+};
+
+void Veiculo::setNumRodas(int rodas) {
+	num_rodas = int(rodas);
+}
+
+int Veiculo::getNumRodas(){
+	return num_rodas;
+}
+
+int main() {
+//	{
+//		Veiculo veiculo1("v1");
+//		{
+//			Veiculo veiculo2("v2");
+//			{
+//				Veiculo veiculo3("v3");
+//			}
+//		}
+//	}
+
+//	Veiculo * obj1 = new Veiculo("v1");
+//
+//	delete obj1;
+
+	Veiculo veiculo1("v1");
+
+	veiculo1.setNumRodas(2);
+	veiculo1.getNumRodas();
+
+	return 0;
+}

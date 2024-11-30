@@ -1,0 +1,23 @@
+class Veiculo {
+	private:
+		string nome;
+		int num_rodas;
+
+	public:
+		//Construtor
+		Veiculo(const char * param) { // @suppress("Class members should be properly initialized")
+			this->nome = string(param);
+			cout << "Veículo: " << nome << " Construido" << endl;
+		}
+
+		//Destrutor
+		~Veiculo(){
+			cout << "Veículo: " << nome << " Destruido" << endl;
+		}
+
+		//Metodos
+		int getNumRodas();
+
+		void setNumRodas(int rodas);
+
+};

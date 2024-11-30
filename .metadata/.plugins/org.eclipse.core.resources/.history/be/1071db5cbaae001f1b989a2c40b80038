@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+
+class Veiculo {
+	private:
+		string nome;
+
+
+	public:
+		Veiculo(const char * param) {
+			this->nome = string(param);
+			cout << "Veículo: " << nome << " Construido" << endl;
+		}
+
+		~Veiculo(){
+			cout << "Veículo: " << nome << " Destruido" << endl;
+		}
+};
+
+int main() {
+	{
+		Veiculo veiculo1("v1");
+		{
+			Veiculo veiculo2("v2");
+			{
+				Veiculo veiculo3("v3");
+			}
+		}
+	}
+	return 0;
+}

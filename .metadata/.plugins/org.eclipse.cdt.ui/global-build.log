@@ -1,0 +1,240 @@
+21:49:03 **** Rebuild of configuration Debug for project Pratica01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o pratica01.o "..\\pratica01.cpp" 
+g++ -o Pratica01.exe pratica01.o 
+
+21:49:06 Build Finished. 0 errors, 0 warnings. (took 2s.232ms)
+
+Info: Nothing to build for Pratica01
+22:11:24 **** Incremental Build of configuration Debug for project Pratica01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o pratica01.o "..\\pratica01.cpp" 
+g++ -o Pratica01.exe pratica01.o 
+Info: Nothing to build for Pratica01
+Info: Nothing to build for Pratica01
+22:11:42 **** Incremental Build of configuration Debug for project Pratica01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o pratica01.o "..\\pratica01.cpp" 
+g++ -o Pratica01.exe pratica01.o 
+22:26:58 **** Incremental Build of configuration Debug for project Pratica01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o pratica01.o "..\\pratica01.cpp" 
+g++ -o Pratica01.exe pratica01.o 
+22:27:17 **** Incremental Build of configuration Debug for project Pratica01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o pratica01.o "..\\pratica01.cpp" 
+g++ -o Pratica01.exe pratica01.o 
+22:27:33 **** Incremental Build of configuration Debug for project Pratica01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o pratica01.o "..\\pratica01.cpp" 
+g++ -o Pratica01.exe pratica01.o 
+22:27:38 **** Incremental Build of configuration Debug for project Pratica01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o pratica01.o "..\\pratica01.cpp" 
+g++ -o Pratica01.exe pratica01.o 
+22:28:11 **** Incremental Build of configuration Debug for project Pratica01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o pratica01.o "..\\pratica01.cpp" 
+g++ -o Pratica01.exe pratica01.o 
+22:44:09 **** Incremental Build of configuration Debug for project Pratica01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o pratica01.o "..\\pratica01.cpp" 
+..\pratica01.cpp: In function 'int main()':
+..\pratica01.cpp:31:12: warning: unused variable 'obj1' [-Wunused-variable]
+  Veiculo * obj1 = new Veiculo("v1");
+            ^~~~
+g++ -o Pratica01.exe pratica01.o 
+22:45:22 **** Incremental Build of configuration Debug for project Pratica01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o pratica01.o "..\\pratica01.cpp" 
+..\pratica01.cpp: In function 'int main()':
+..\pratica01.cpp:33:8: error: expected unqualified-id before 'delete'
+  obj1->delete();
+        ^~~~~~
+23:18:39 **** Incremental Build of configuration Debug for project Pratica01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o pratica01.o "..\\pratica01.cpp" 
+..\pratica01.cpp:31:5: error: prototype for 'int Veiculo::setNumRodas(int)' does not match any in class 'Veiculo'
+ int Veiculo::setNumRodas(int num_rodas) {
+     ^~~~~~~
+..\pratica01.cpp:22:8: error: candidate is: void Veiculo::setNumRodas()
+   void setNumRodas(){
+        ^~~~~~~~~~~
+..\pratica01.cpp:36:5: error: prototype for 'int Veiculo::getNumRodas()' does not match any in class 'Veiculo'
+ int Veiculo::getNumRodas(){
+     ^~~~~~~
+..\pratica01.cpp:26:8: error: candidate is: void Veiculo::getNumRodas()
+   void getNumRodas(){
+        ^~~~~~~~~~~
+..\pratica01.cpp: In function 'int main()':
+..\pratica01.cpp:57:24: error: no matching function for call to 'Veiculo::setNumRodas(int)'
+  veiculo1.setNumRodas(2);
+                        ^
+..\pratica01.cpp:22:8: note: candidate: void Veiculo::setNumRodas()
+   void setNumRodas(){
+        ^~~~~~~~~~~
+..\pratica01.cpp:22:8: note:   candidate expects 0 arguments, 1 provided
+23:24:22 **** Incremental Build of configuration Debug for project Pratica01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o pratica01.o "..\\pratica01.cpp" 
+..\pratica01.cpp:27:6: error: prototype for 'void Veiculo::setNumRodas(int)' does not match any in class 'Veiculo'
+ void Veiculo::setNumRodas(int rodas) {
+      ^~~~~~~
+..\pratica01.cpp:22:8: error: candidate is: void Veiculo::setNumRodas()
+   void setNumRodas();
+        ^~~~~~~~~~~
+..\pratica01.cpp:31:5: error: prototype for 'int Veiculo::getNumRodas()' does not match any in class 'Veiculo'
+ int Veiculo::getNumRodas(){
+     ^~~~~~~
+..\pratica01.cpp:24:7: error: candidate is: int Veiculo::getNumRodas(int)
+   int getNumRodas(int rodas);
+       ^~~~~~~~~~~
+..\pratica01.cpp: In function 'int main()':
+..\pratica01.cpp:52:24: error: no matching function for call to 'Veiculo::setNumRodas(int)'
+  veiculo1.setNumRodas(2);
+                        ^
+..\pratica01.cpp:22:8: note: candidate: void Veiculo::setNumRodas()
+   void setNumRodas();
+        ^~~~~~~~~~~
+..\pratica01.cpp:22:8: note:   candidate expects 0 arguments, 1 provided
+..\pratica01.cpp:53:23: error: no matching function for call to 'Veiculo::getNumRodas()'
+  veiculo1.getNumRodas();
+                       ^
+..\pratica01.cpp:24:7: note: candidate: int Veiculo::getNumRodas(int)
+   int getNumRodas(int rodas);
+       ^~~~~~~~~~~
+..\pratica01.cpp:24:7: note:   candidate expects 1 argument, 0 provided
+23:26:26 **** Incremental Build of configuration Debug for project Pratica01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o pratica01.o "..\\pratica01.cpp" 
+g++ -o Pratica01.exe pratica01.o 
+23:27:34 **** Incremental Build of configuration Debug for project Pratica01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o pratica01.o "..\\pratica01.cpp" 
+g++ -o Pratica01.exe pratica01.o 
+23:28:55 **** Incremental Build of configuration Debug for project Pratica01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o pratica01.o "..\\pratica01.cpp" 
+g++ -o Pratica01.exe pratica01.o 
+23:29:19 **** Incremental Build of configuration Debug for project Pratica01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o pratica01.o "..\\pratica01.cpp" 
+..\pratica01.cpp: In member function 'int Veiculo::getNumRodas()':
+..\pratica01.cpp:28:30: error: cannot convert 'std::basic_ostream<char>::__ostream_type {aka std::basic_ostream<char>}' to 'int' in return
+  return cout << num_rodas << endl;
+                              ^~~~
+23:29:38 **** Incremental Build of configuration Debug for project Pratica01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o pratica01.o "..\\pratica01.cpp" 
+..\pratica01.cpp: In member function 'int Veiculo::getNumRodas()':
+..\pratica01.cpp:28:30: error: cannot convert 'std::basic_ostream<char>::__ostream_type {aka std::basic_ostream<char>}' to 'int' in return
+  return cout << num_rodas << endl;
+                              ^~~~
+23:31:18 **** Incremental Build of configuration Debug for project Pratica01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o pratica01.o "..\\pratica01.cpp" 
+g++ -o Pratica01.exe pratica01.o 
+23:31:33 **** Incremental Build of configuration Debug for project Pratica01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o pratica01.o "..\\pratica01.cpp" 
+g++ -o Pratica01.exe pratica01.o 
+23:35:14 **** Incremental Build of configuration Debug for project Pratica01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o veiculo.o "..\\veiculo.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o pratica01.o "..\\pratica01.cpp" 
+g++ -o Pratica01.exe pratica01.o veiculo.o 
+23:47:05 **** Incremental Build of configuration Debug for project Pratica01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o veiculo.o "..\\veiculo.cpp" 
+In file included from ..\veiculo.cpp:2:0:
+..\veiculo.h:23:57: error: expected ',' or '...' before '==' token
+   Veiculo(const char * param, int num_rodas, Roda rodas == NULL) {
+                                                         ^~
+23:47:57 **** Incremental Build of configuration Debug for project Pratica01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o pratica01.o "..\\pratica01.cpp" 
+In file included from ..\pratica01.cpp:2:0:
+..\veiculo.h:23:57: error: expected ',' or '...' before '==' token
+   Veiculo(const char * param, int num_rodas, Roda rodas == NULL) {
+                                                         ^~
+..\pratica01.cpp: In function 'int main()':
+..\pratica01.cpp:20:23: error: no matching function for call to 'Veiculo::Veiculo(const char [3])'
+  Veiculo veiculo1("v1");
+                       ^
+In file included from ..\pratica01.cpp:2:0:
+..\veiculo.h:23:3: note: candidate: Veiculo::Veiculo(const char*, int, Roda)
+   Veiculo(const char * param, int num_rodas, Roda rodas == NULL) {
+   ^~~~~~~
+..\veiculo.h:23:3: note:   candidate expects 3 arguments, 1 provided
+..\veiculo.h:15:7: note: candidate: Veiculo::Veiculo(const Veiculo&)
+ class Veiculo {
+       ^~~~~~~
+..\veiculo.h:15:7: note:   no known conversion for argument 1 from 'const char [3]' to 'const Veiculo&'
+00:24:14 **** Incremental Build of configuration Debug for project Pratica01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o pratica01.o "..\\pratica01.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o veiculo.o "..\\veiculo.cpp" 
+..\veiculo.cpp: In member function 'void Veiculo::setNumRodas(int)':
+..\veiculo.cpp:12:13: error: invalid types 'int[int]' for array subscript
+  rodas[rodas];
+             ^
+00:27:23 **** Incremental Build of configuration Debug for project Pratica01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o veiculo.o "..\\veiculo.cpp" 
+..\veiculo.cpp: In member function 'void Veiculo::setNumRodas(int)':
+..\veiculo.cpp:12:25: error: 'Roda::Roda()' is private within this context
+  Roda rodas = new Roda[r];
+                         ^
+In file included from ..\veiculo.cpp:2:0:
+..\veiculo.h:5:2: note: declared private here
+  Roda() {
+  ^~~~
+..\veiculo.cpp:12:25: error: 'Roda::~Roda()' is private within this context
+  Roda rodas = new Roda[r];
+                         ^
+In file included from ..\veiculo.cpp:2:0:
+..\veiculo.h:9:2: note: declared private here
+  ~Roda(){
+  ^
+..\veiculo.cpp:12:15: error: conversion from 'Roda*' to non-scalar type 'Roda' requested
+  Roda rodas = new Roda[r];
+               ^~~~~~~~~~~
+..\veiculo.cpp:12:25: error: 'Roda::~Roda()' is private within this context
+  Roda rodas = new Roda[r];
+                         ^
+In file included from ..\veiculo.cpp:2:0:
+..\veiculo.h:9:2: note: declared private here
+  ~Roda(){
+  ^
+00:36:34 **** Incremental Build of configuration Debug for project Pratica01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o pratica01.o "..\\pratica01.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o veiculo.o "..\\veiculo.cpp" 
+g++ -o Pratica01.exe pratica01.o veiculo.o 
+00:37:55 **** Incremental Build of configuration Debug for project Pratica01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o pratica01.o "..\\pratica01.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o veiculo.o "..\\veiculo.cpp" 
+g++ -o Pratica01.exe pratica01.o veiculo.o 
+00:38:08 **** Incremental Build of configuration Debug for project Pratica01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o veiculo.o "..\\veiculo.cpp" 
+g++ -o Pratica01.exe pratica01.o veiculo.o 
+Info: Nothing to build for Pratica01
+Info: Nothing to build for Pratica01
+Info: Nothing to build for Pratica01
+Info: Nothing to build for Pratica01
+Info: Nothing to build for Pratica01
+Info: Nothing to build for Pratica01
+Info: Nothing to build for Pratica01
+Info: Nothing to build for Pratica01
+Info: Nothing to build for Pratica01
+Info: Nothing to build for Pratica01
+Info: Nothing to build for Pratica01
+Info: Nothing to build for Pratica01
+Info: Nothing to build for Pratica01
+Info: Nothing to build for Pratica01
+Info: Nothing to build for Pratica01
+Info: Nothing to build for Pratica01
+Info: Nothing to build for Pratica01
+Info: Nothing to build for Pratica01
