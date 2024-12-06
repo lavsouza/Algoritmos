@@ -1,5 +1,6 @@
 #include <iostream>
-#include "veiculo.h"
+#include "veiculo.cpp"
+
 using namespace std;
 
 int main() {

@@ -662,3 +662,249 @@ C:/Users/lucas/OneDrive/Área de Trabalho/Algoritmos/Pratica01: No such file or 
 java.lang.Exception: C:/Users/lucas/OneDrive/Área de Trabalho/Algoritmos/Pratica01: No such file or directory.
 	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
 	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+!SESSION 2024-12-06 00:17:28.860 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=23.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-12-06 00:17:41.876
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\lucas'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2024-12-06 00:20:29.444
+!MESSAGE Error in final launch sequence:
+
+Failed to execute MI command:
+-environment-cd "C:/Users/lucas/OneDrive/Área de Trabalho/Algoritmos/Pratica01"
+Error message from debugger back end:
+C:/Users/lucas/OneDrive/Área de Trabalho/Algoritmos/Pratica01: No such file or directory.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to execute MI command:
+-environment-cd "C:/Users/lucas/OneDrive/Área de Trabalho/Algoritmos/Pratica01"
+Error message from debugger back end:
+C:/Users/lucas/OneDrive/Área de Trabalho/Algoritmos/Pratica01: No such file or directory.
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:252)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.Exception: C:/Users/lucas/OneDrive/Área de Trabalho/Algoritmos/Pratica01: No such file or directory.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2024-12-06 00:20:29.446
+!MESSAGE Failed to execute MI command:
+-environment-cd "C:/Users/lucas/OneDrive/Área de Trabalho/Algoritmos/Pratica01"
+Error message from debugger back end:
+C:/Users/lucas/OneDrive/Área de Trabalho/Algoritmos/Pratica01: No such file or directory.
+!STACK 0
+java.lang.Exception: C:/Users/lucas/OneDrive/Área de Trabalho/Algoritmos/Pratica01: No such file or directory.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2024-12-06 00:20:45.751
+!MESSAGE Error in final launch sequence:
+
+Failed to execute MI command:
+-environment-cd "C:/Users/lucas/OneDrive/Área de Trabalho/Algoritmos/Pratica01"
+Error message from debugger back end:
+C:/Users/lucas/OneDrive/Área de Trabalho/Algoritmos/Pratica01: No such file or directory.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to execute MI command:
+-environment-cd "C:/Users/lucas/OneDrive/Área de Trabalho/Algoritmos/Pratica01"
+Error message from debugger back end:
+C:/Users/lucas/OneDrive/Área de Trabalho/Algoritmos/Pratica01: No such file or directory.
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:252)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.Exception: C:/Users/lucas/OneDrive/Área de Trabalho/Algoritmos/Pratica01: No such file or directory.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2024-12-06 00:20:45.751
+!MESSAGE Failed to execute MI command:
+-environment-cd "C:/Users/lucas/OneDrive/Área de Trabalho/Algoritmos/Pratica01"
+Error message from debugger back end:
+C:/Users/lucas/OneDrive/Área de Trabalho/Algoritmos/Pratica01: No such file or directory.
+!STACK 0
+java.lang.Exception: C:/Users/lucas/OneDrive/Área de Trabalho/Algoritmos/Pratica01: No such file or directory.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-06 00:31:42.844
+!MESSAGE Indexed 'Pratica01' (2 sources, 121 headers) in 1,65 sec: 11.995 declarations; 19.695 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2024-12-06 00:31:57.580
+!MESSAGE Error in final launch sequence:
+
+Failed to execute MI command:
+-environment-cd "C:/Users/lucas/OneDrive/Área de Trabalho/Algoritmos/Pratica01"
+Error message from debugger back end:
+C:/Users/lucas/OneDrive/Área de Trabalho/Algoritmos/Pratica01: No such file or directory.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to execute MI command:
+-environment-cd "C:/Users/lucas/OneDrive/Área de Trabalho/Algoritmos/Pratica01"
+Error message from debugger back end:
+C:/Users/lucas/OneDrive/Área de Trabalho/Algoritmos/Pratica01: No such file or directory.
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:252)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.Exception: C:/Users/lucas/OneDrive/Área de Trabalho/Algoritmos/Pratica01: No such file or directory.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2024-12-06 00:31:57.580
+!MESSAGE Failed to execute MI command:
+-environment-cd "C:/Users/lucas/OneDrive/Área de Trabalho/Algoritmos/Pratica01"
+Error message from debugger back end:
+C:/Users/lucas/OneDrive/Área de Trabalho/Algoritmos/Pratica01: No such file or directory.
+!STACK 0
+java.lang.Exception: C:/Users/lucas/OneDrive/Área de Trabalho/Algoritmos/Pratica01: No such file or directory.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2024-12-06 00:33:56.412
+!MESSAGE Error in final launch sequence:
+
+Failed to execute MI command:
+-environment-cd "C:/Users/lucas/OneDrive/Área de Trabalho/Algoritmos/Pratica01"
+Error message from debugger back end:
+C:/Users/lucas/OneDrive/Área de Trabalho/Algoritmos/Pratica01: No such file or directory.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to execute MI command:
+-environment-cd "C:/Users/lucas/OneDrive/Área de Trabalho/Algoritmos/Pratica01"
+Error message from debugger back end:
+C:/Users/lucas/OneDrive/Área de Trabalho/Algoritmos/Pratica01: No such file or directory.
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:252)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.Exception: C:/Users/lucas/OneDrive/Área de Trabalho/Algoritmos/Pratica01: No such file or directory.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2024-12-06 00:33:56.412
+!MESSAGE Failed to execute MI command:
+-environment-cd "C:/Users/lucas/OneDrive/Área de Trabalho/Algoritmos/Pratica01"
+Error message from debugger back end:
+C:/Users/lucas/OneDrive/Área de Trabalho/Algoritmos/Pratica01: No such file or directory.
+!STACK 0
+java.lang.Exception: C:/Users/lucas/OneDrive/Área de Trabalho/Algoritmos/Pratica01: No such file or directory.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2024-12-06 00:35:11.810
+!MESSAGE Error in final launch sequence:
+
+Failed to execute MI command:
+-environment-cd "C:/Users/lucas/OneDrive/Área de Trabalho/Algoritmos/Pratica01"
+Error message from debugger back end:
+C:/Users/lucas/OneDrive/Área de Trabalho/Algoritmos/Pratica01: No such file or directory.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to execute MI command:
+-environment-cd "C:/Users/lucas/OneDrive/Área de Trabalho/Algoritmos/Pratica01"
+Error message from debugger back end:
+C:/Users/lucas/OneDrive/Área de Trabalho/Algoritmos/Pratica01: No such file or directory.
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:252)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.Exception: C:/Users/lucas/OneDrive/Área de Trabalho/Algoritmos/Pratica01: No such file or directory.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2024-12-06 00:35:11.810
+!MESSAGE Failed to execute MI command:
+-environment-cd "C:/Users/lucas/OneDrive/Área de Trabalho/Algoritmos/Pratica01"
+Error message from debugger back end:
+C:/Users/lucas/OneDrive/Área de Trabalho/Algoritmos/Pratica01: No such file or directory.
+!STACK 0
+java.lang.Exception: C:/Users/lucas/OneDrive/Área de Trabalho/Algoritmos/Pratica01: No such file or directory.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-06 00:48:03.260
+!MESSAGE Indexed 'pratica02' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2024-12-06 01:01:53.388
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: C:\Users\lucas\OneDrive\Área de Trabalho\Algoritmos\Pratica01\Debug\Pratica01.exe not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2024-12-06 01:01:53.389
+!MESSAGE C:\Users\lucas\OneDrive\Área de Trabalho\Algoritmos\Pratica01\Debug\Pratica01.exe not found
+!STACK 0
+java.io.FileNotFoundException: C:\Users\lucas\OneDrive\Área de Trabalho\Algoritmos\Pratica01\Debug\Pratica01.exe not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.launch 4 104 2024-12-06 01:02:16.859
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: C:\Users\lucas\OneDrive\Área de Trabalho\Algoritmos\Pratica01\Debug\Pratica01.exe not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.verifyProgramPath(AbstractCLaunchDelegate2.java:701)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.checkBinaryDetails(LocalRunLaunchDelegate.java:262)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:90)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:78)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 104 2024-12-06 01:02:16.860
+!MESSAGE C:\Users\lucas\OneDrive\Área de Trabalho\Algoritmos\Pratica01\Debug\Pratica01.exe not found
+!STACK 0
+java.io.FileNotFoundException: C:\Users\lucas\OneDrive\Área de Trabalho\Algoritmos\Pratica01\Debug\Pratica01.exe not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.verifyProgramPath(AbstractCLaunchDelegate2.java:701)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.checkBinaryDetails(LocalRunLaunchDelegate.java:262)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:90)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:78)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

@@ -238,3 +238,36 @@ Info: Nothing to build for Pratica01
 Info: Nothing to build for Pratica01
 Info: Nothing to build for Pratica01
 Info: Nothing to build for Pratica01
+Info: Nothing to build for Pratica01
+Info: Nothing to build for Pratica01
+Info: Nothing to build for Pratica01
+Info: Nothing to build for Pratica01
+00:31:53 **** Incremental Build of configuration Debug for project Pratica01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g -Wall -c -fmessage-length=0 -o veiculo.o "..\\veiculo.cpp" 
+g++ -O0 -g -Wall -c -fmessage-length=0 -o pratica01.o "..\\pratica01.cpp" 
+g++ -o Pratica01.exe pratica01.o veiculo.o 
+Info: Nothing to build for Pratica01
+Info: Nothing to build for Pratica01
+01:01:47 **** Incremental Build of configuration Debug for project Pratica01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g -Wall -c -fmessage-length=0 -o veiculo.o "..\\veiculo.cpp" 
+g++ -O0 -g -Wall -c -fmessage-length=0 -o pratica01.o "..\\pratica01.cpp" 
+g++ -o Pratica01.exe pratica01.o veiculo.o 
+veiculo.o: In function `ZN7Veiculo11getNumRodasEv':
+C:\Users\lucas\OneDrive\�rea de Trabalho\Algoritmos\Pratica01\Debug/../veiculo.cpp:6: multiple definition of `Veiculo::getNumRodas()'
+pratica01.o:C:\Users\lucas\OneDrive\�rea de Trabalho\Algoritmos\Pratica01\Debug/../veiculo.cpp:6: first defined here
+veiculo.o: In function `ZN4RodaC1Ev':
+C:\Users\lucas\OneDrive\�rea de Trabalho\Algoritmos\Pratica01\Debug/../veiculo.cpp:10: multiple definition of `Veiculo::setNumRodas(int)'
+pratica01.o:C:\Users\lucas\OneDrive\�rea de Trabalho\Algoritmos\Pratica01\Debug/../veiculo.cpp:10: first defined here
+collect2.exe: error: ld returned 1 exit status
+01:02:14 **** Incremental Build of configuration Debug for project Pratica01 ****
+Info: Internal Builder is used for build
+g++ -o Pratica01.exe pratica01.o veiculo.o 
+veiculo.o: In function `ZN7Veiculo11getNumRodasEv':
+C:\Users\lucas\OneDrive\�rea de Trabalho\Algoritmos\Pratica01\Debug/../veiculo.cpp:6: multiple definition of `Veiculo::getNumRodas()'
+pratica01.o:C:\Users\lucas\OneDrive\�rea de Trabalho\Algoritmos\Pratica01\Debug/../veiculo.cpp:6: first defined here
+veiculo.o: In function `ZN4RodaC1Ev':
+C:\Users\lucas\OneDrive\�rea de Trabalho\Algoritmos\Pratica01\Debug/../veiculo.cpp:10: multiple definition of `Veiculo::setNumRodas(int)'
+pratica01.o:C:\Users\lucas\OneDrive\�rea de Trabalho\Algoritmos\Pratica01\Debug/../veiculo.cpp:10: first defined here
+collect2.exe: error: ld returned 1 exit status

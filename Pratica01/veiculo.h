@@ -25,13 +25,13 @@ class Veiculo {
 		Veiculo(const char * param) { // @suppress("Class members should be properly initialized")
 			this->nome = string(param);
 			this->rodas = NULL;
-			cout << "Veículo: " << nome << " Construido" << endl;
+			cout << "Veiculo: " << nome << " Construido" << endl;
 		}
 
 		//Destrutor
 		~Veiculo(){
 			delete[] rodas;
-			cout << "Veículo: " << nome << " Destruido" << endl;
+			cout << "Veiculo: " << nome << " Destruido" << endl;
 		}
 
 		//Metodos
