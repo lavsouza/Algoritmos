@@ -20,7 +20,6 @@ int main() {
     Anfibio * anfi = new Anfibio("AF1");
     anfi->mover();
 
-
     Veiculo * aereo = new Aereo("VA1");
     ((Aereo *)aereo)->setVelocidadeMax(1040.5);
     aereo->mover();
