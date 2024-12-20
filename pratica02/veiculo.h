@@ -93,12 +93,12 @@ public:
 
 };
 
-class Anfibio : public Terrestre, Aquatico {
+class Anfibio : public Terrestre, public Aquatico {
 private:
     string nome;
 
 public:
-    Anfibio (const char * nome) : Veiculo(nome), Terrestre(nome), Aquatico(nome) {
+    Anfibio (const char * nome) : Veiculo(nome), Terrestre(), Aquatico() {
         cout << "Anfibio constructor" << endl;
     }
 

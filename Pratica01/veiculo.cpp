@@ -9,5 +9,6 @@ int Veiculo::getNumRodas(){
 
 void Veiculo::setNumRodas(int r) {
 	num_rodas = r;
+	delete [] rodas;
 	rodas = new Roda[r];
 }
