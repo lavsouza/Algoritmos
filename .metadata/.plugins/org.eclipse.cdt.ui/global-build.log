@@ -271,3 +271,23 @@ veiculo.o: In function `ZN4RodaC1Ev':
 C:\Users\lucas\OneDrive\�rea de Trabalho\Algoritmos\Pratica01\Debug/../veiculo.cpp:10: multiple definition of `Veiculo::setNumRodas(int)'
 pratica01.o:C:\Users\lucas\OneDrive\�rea de Trabalho\Algoritmos\Pratica01\Debug/../veiculo.cpp:10: first defined here
 collect2.exe: error: ld returned 1 exit status
+13:58:25 **** Incremental Build of configuration Debug for project Pratica01 ****
+Info: Internal Builder is used for build
+g++ -o Pratica01.exe pratica01.o veiculo.o 
+veiculo.o: In function `ZN7Veiculo11getNumRodasEv':
+C:\Users\lucas\OneDrive\�rea de Trabalho\Algoritmos\Pratica01\Debug/../veiculo.cpp:6: multiple definition of `Veiculo::getNumRodas()'
+pratica01.o:C:\Users\lucas\OneDrive\�rea de Trabalho\Algoritmos\Pratica01\Debug/../veiculo.cpp:6: first defined here
+veiculo.o: In function `ZN4RodaC1Ev':
+C:\Users\lucas\OneDrive\�rea de Trabalho\Algoritmos\Pratica01\Debug/../veiculo.cpp:10: multiple definition of `Veiculo::setNumRodas(int)'
+pratica01.o:C:\Users\lucas\OneDrive\�rea de Trabalho\Algoritmos\Pratica01\Debug/../veiculo.cpp:10: first defined here
+collect2.exe: error: ld returned 1 exit status
+14:00:17 **** Incremental Build of configuration Debug for project Pratica01 ****
+Info: Internal Builder is used for build
+g++ -o Pratica01.exe pratica01.o veiculo.o 
+veiculo.o: In function `ZN7Veiculo11getNumRodasEv':
+C:\Users\lucas\OneDrive\�rea de Trabalho\Algoritmos\Pratica01\Debug/../veiculo.cpp:6: multiple definition of `Veiculo::getNumRodas()'
+pratica01.o:C:\Users\lucas\OneDrive\�rea de Trabalho\Algoritmos\Pratica01\Debug/../veiculo.cpp:6: first defined here
+veiculo.o: In function `ZN4RodaC1Ev':
+C:\Users\lucas\OneDrive\�rea de Trabalho\Algoritmos\Pratica01\Debug/../veiculo.cpp:10: multiple definition of `Veiculo::setNumRodas(int)'
+pratica01.o:C:\Users\lucas\OneDrive\�rea de Trabalho\Algoritmos\Pratica01\Debug/../veiculo.cpp:10: first defined here
+collect2.exe: error: ld returned 1 exit status

@@ -6,13 +6,12 @@ void Veiculo::mover() {
     cout << "Veiculo moveu" << endl;
 }
 
-
-int Terrestre::getCapPass(){
+int Terrestre::getCapacidadeMax(){
     return cap_pass;
 }
 
-void Terrestre::setCapacidadeMax(int capacidade) {
-    cap_pass = capacidade;
+void Terrestre::setCapacidadeMax(int cap_pass) {
+    this->cap_pass = cap_pass;
 }
 
 void Terrestre::mover() {

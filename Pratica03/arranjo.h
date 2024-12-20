@@ -57,7 +57,6 @@ class Arranjo {
 
 template<class T>
 void Arranjo<T>::exibir() {
-   // exibir cada item numa linha da forma "<idx>: <item>"
    for (int i = 0; i < tamanho; i++) {
         cout << i << ": " << items[i] << endl;
    }
