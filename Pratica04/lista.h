@@ -44,7 +44,6 @@ public:
         return itens[idx - 1];
     }
 
-    // Insere um item na posição indicada (a partir de 1)
     void insere(int idx, const T& item) {
         if (tamanhoAtual == capacidade) {
             throw std::runtime_error("Lista cheia");
@@ -58,12 +57,10 @@ public:
             itens[i] = itens[i - 1];
         }
 
-        // Insere o novo item
         itens[idx - 1] = item;
         tamanhoAtual++;
     }
 
-    // Remove um item da posição indicada (a partir de 1)
     void remove(int idx) {
         if (idx < 1 || idx > tamanhoAtual) {
             throw std::runtime_error("Indice invalido");
@@ -77,7 +74,6 @@ public:
         tamanhoAtual--;
     }
 
-    // Exibe os itens separados por espaços
     void exibe() {
         for (int i = 0; i < tamanhoAtual; i++) {
             cout << itens[i] << " ";
@@ -85,7 +81,6 @@ public:
         cout << endl;
     }
 
-    // Retorna a quantidade de itens atualmente na lista
     int tamanho() {
         return tamanhoAtual;
     }
