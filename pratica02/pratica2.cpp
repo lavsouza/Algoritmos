@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../Pratica02/veiculo.cpp"
+#include "veiculo.cpp"
 
 using namespace std;
 

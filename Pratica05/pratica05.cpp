@@ -1,10 +1,10 @@
 #include <iostream>
-//#include "pilha_teste.cpp"
 //#include "fila_teste.cpp"
 //#include "impressora.cpp"
 #include "lista_teste.cpp"
 //#include "lista_char.cpp"
 //#include "polonesa.cpp"
+//#include "pilha_teste.cpp"
 
 int mainPilha();
 int mainPol();
@@ -18,8 +18,8 @@ int mainChar();
 int main() {
 
     /**** Pilha */
-     //   mainPilha();
-    //    mainPol();
+    //    mainPilha();
+    //   mainPol();
 
     /**** Fila */
     //    mainFila();

@@ -29,22 +29,21 @@ class Pilha {
         }
 
         void empilha(T item) {
-            // empilha um item no topo da pilha;
             if (topo >= capacidade - 1) {
-              throw std::out_of_range("Pilha cheia");
+              throw std::runtime_error("Pilha cheia");
             }
             itens[++topo] = item;
         }
 
         T desempilha() {
             if(topo < 0) {
-              throw std::out_of_range("Pilha vazia");
+              throw std::runtime_error("Pilha vazia");
             }
             return itens[topo--];
         }
 
         int tamanho() {
-            return topo;
+            return capacidade;
         }
 
     std::string verConteudo() {

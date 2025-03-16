@@ -8,7 +8,7 @@
 #endif //LISTA_H
 
 #include <iostream>
-#include <stdexcept> // Para std::runtime_error
+#include <stdexcept>
 using namespace std;
 
 template <class T>
@@ -66,7 +66,6 @@ public:
             throw std::runtime_error("Indice invalido");
         }
 
-        // Desloca os itens para a esquerda
         for (int i = idx - 1; i < tamanhoAtual - 1; i++) {
             itens[i] = itens[i + 1];
         }
