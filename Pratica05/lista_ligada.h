@@ -45,6 +45,7 @@ public:
         }
 
         Node* novoNo = new Node(valor);
+
         if (head == nullptr) {
             head = novoNo;
         } else {
@@ -66,24 +67,29 @@ public:
         }
 
         Node* novoNo = new Node(valor);
+        int idx = pos - 1;
         if (pos == 0) {
             novoNo->next = head;
             head = novoNo;
         } else {
             Node* temp = head;
-            for (int i = 0; i < pos - 1; ++i) {
+            for (int i = 0; i < idx - 1; ++i) {
                 temp = temp->next;
             }
             novoNo->next = temp->next;
             temp->next = novoNo;
         }
-        this->tamanhoAtual++;
+        ++this->tamanhoAtual;
     }
 
     void remove(int pos) override {
         pos = pos - 1;
         if (pos < 0 || pos > this->tamanhoAtual) {
             throw std::runtime_error("Posição inválida: " + std::to_string(pos));
+        }
+
+        if (this->tamanhoAtual == 0) {
+           throw std::runtime_error("Lista vazia");
         }
 
         Node* temp;

@@ -107,7 +107,7 @@ int mainLista() {
 
     lista.adiciona(MAX * 7);
 
-    for (int i = MAX / 2 - 1; i >= 1; i--) {
+    for (int i = MAX/2 - 1; i >= 1; i--) {
         try {
             lista.insere(i + 1, 2 * i * 7);
         } catch (...) {
@@ -116,6 +116,7 @@ int mainLista() {
         }
     }
     std::cerr << "OK" << std::endl;
+    std::cerr << lista.exibe() << std::endl;
 
     testaTamanho(lista, "cheia", MAX);
 
@@ -146,7 +147,6 @@ int mainLista() {
     std::cerr << "OK" << std::endl;
 
     testaTamanho(lista, "vazia", 0);
-
     try {
         std::cerr << "Testando remove() [underflow]: ";
         lista.remove(1);
