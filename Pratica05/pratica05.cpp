@@ -1,8 +1,8 @@
 #include <iostream>
 //#include "fila_teste.cpp"
 //#include "impressora.cpp"
-#include "lista_teste.cpp"
-#include "lista_char.cpp"
+//#include "lista_teste.cpp"
+//#include "lista_char.cpp"
 //#include "polonesa.cpp"
 //#include "pilha_teste.cpp"
 
@@ -27,7 +27,7 @@ int main() {
 
     /**** Lista */
     //    mainLista();
-        mainChar();
+    //    mainChar();
 
         return 0;
 }
