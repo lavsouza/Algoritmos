@@ -1,0 +1,3 @@
+C:/Users/lucas/Desktop/Faculdade 2024.2/Algoritmos/Pratica07/cmake-build-debug/CMakeFiles/Pratica07.dir
+C:/Users/lucas/Desktop/Faculdade 2024.2/Algoritmos/Pratica07/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/lucas/Desktop/Faculdade 2024.2/Algoritmos/Pratica07/cmake-build-debug/CMakeFiles/rebuild_cache.dir
